@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/wholesalemall/public_html/ram
+    - /bin/cp * $DEPLOYPATH
